@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	font-size: 16px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: Alumni Sans;
+	text-align: center;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background:#006a4e;
+	position: relative;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: #f42a41;
+	border-radius: 100%;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	z-index: 1;
+}
+
+.fbimg{
+	width: 95px;
+	height: 42px;
+	position: fixed;
+	top: 40%;
+	right: -64px;
+	transition: 1s;
+}
+.fbimg:hover{
+	right: -5px;
+	top: 39%;
+	width: 100px;
+	}
+.twtrimg{
+	width: 120px;
+	position: fixed;
+	top: 45%;
+	right: -80px;
+	transition: 1s;
+}
+.twtrimg:hover{
+	right: -10px;
+	top: 43%;
+	width: 125px;
+}
+.socialmedia{
+	width: 100%;
+	margin: 80px 0px;
+	background: #56455c;
+	padding: 80px 0px;
+}
+.icon{
+	text-align: center;
+	width: 100%;
+}
+
+.icon li{
+	list-style: none;
+	display: inline-block;
+}
+.icon li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	border: 2px solid black;
+	border-radius: 40%;
+	margin: 0px 15px;
+	transition: 1s;
+	background: #c9b6d6;
+	color: black;
+}
+.icon li a .fa-facebook {
+
+border-color:#0A80EC  ;}
+
+.icon li a .fa-twitter {
+
+border-color:#5DA9DD  ;}
+
+.icon li a .fa-instagram {
+
+border-color:#ff54e3  ;}
+
+.icon li a .fa-whatsapp {
+
+border-color:#05D84B  ;}
+
+.icon li a .fa-youtube {
+
+border-color:#FF0000  ;}
+
+.icon li a .fa-facebook:hover{
+	background-color: #0A80EC ;
+	border: none;
+	color: whitesmoke;
+}
+
+.icon li a .fa-twitter:hover{
+	background: #5DA9DD;
+	color: whitesmoke;
+	border: none;
+}
+.icon li a .fa-instagram:hover{
+	background:#ff54e3 ;
+	color: whitesmoke;
+	border: none;
+
+
+}
+.icon li a .fa-behance:hover{
+	border: none;
+	background:black ;
+	color: whitesmoke;
+}
+.icon li a .fa-whatsapp:hover{
+	background:#05D84B ;
+	border: none;
+	color: whitesmoke;
+}
+
+.icon li a .fa-youtube:hover{
+	background: #FF0000;
+	color: whitesmoke ;	
+	border: none;
+
+
+}
+	
+
+
+
